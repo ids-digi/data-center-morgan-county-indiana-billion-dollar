@@ -1,39 +1,29 @@
 const data = {
-    "url": "your-url-here",
-    "slug": "Story slug",
-    "headline": "This is the headline",
-    "title": "Buildout Template",
+    "url": "data-center-morgan-county-indiana-billion-dollar",
+    "slug": "Data Center",
+    "headline": "The billion-dollar neighbor coming to Morgan County",
+    "title": "Data Center",
     "pub_date": "{insert your date in metadata.json}",
     "bylines": {
-        "By": {
-            "name": "Cate Charron",
-            "email": "catchar@iu.edu",
-            "twitter": "catcharron",
-            "pfp": "https://pbs.twimg.com/profile_images/1499562155896619014/CUD2EvuV_400x400.jpg",
-            "bio": "Cate has worked at the IDS since 2019 as a reporter and designer."
-        },
-        "Photos by": {
-            "name": "Izzy Myszak",
-            "email": "izzymyszak@iu.edu",
-            "twitter": "izzymyszak"
+        "Story and photos by": {
+            "name": "Ella Curlin",
+            "email": "elcurlin@iu.edu",
+            // "twitter": "catcharron",
+            "pfp": "https://s3.amazonaws.com/snwceomedia/ids/f606ecc1-cbcb-4659-9bf0-28e820e45006.original.jpg",
+            "bio": "Ella Curlin has worked for the IDS since 2024 and is a news editor."
         },
         "Design and development by": {
-            "name": "Carson TerBush",
-            "email": "cterbush@iu.edu",
-            "twitter": "carsonology",
-            "pfp": "https://pbs.twimg.com/profile_images/1477852735278129152/vk-AiTE6_400x400.jpg",
-            "bio": "Carson has worked at the IDS since 2019 as a reporter and designer."
+            "name": "Calvin Josenhans",
+            "email": "cjosenha@iu.edu",
+            "twitter": "CalvinJosenhans",
+            "pfp": "https://s3.amazonaws.com/snwceomedia/ids/13acda73-a88b-4fb5-bb21-8a4342e8a14c.original.jpg",
+            "bio": "Calvin has worked at the IDS since 2024 on the digital desk."
         },
-        "Graphics by": {
-            "name": "Vivek Rao",
-            "email": "vivrao@iu.edu",
-            "twitter": "vivrao"
-        }
     }
 }
 
 // bylines
-const byline_types = ["By", "Photos by", "Design and development by", "Graphics by"]
+const byline_types = ["Story and photos by","Design and development by"]
 let bylines_html = '';
 let bios_html = '';
 
