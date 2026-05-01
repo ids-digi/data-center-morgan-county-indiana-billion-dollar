@@ -12,6 +12,12 @@ const data = {
             "pfp": "https://s3.amazonaws.com/snwceomedia/ids/f606ecc1-cbcb-4659-9bf0-28e820e45006.original.jpg",
             "bio": "Ella Curlin has worked for the IDS since 2024 and is a news editor."
         },
+		"Photos by": {
+			"name": "Emerson Elledge",
+			"email": "eelledge@iu.edu",
+			"pfp": "https://s3.amazonaws.com/snwceomedia/ids/db1f07e5-bd05-46b2-8082-4d568726b42c.original.jpg",
+			"bio": "Emerson Elledge has worked for the IDS since 2024 as a writer and photographer."
+		},
         "Design and development by": {
             "name": "Calvin Josenhans",
             "email": "cjosenha@iu.edu",
@@ -23,7 +29,7 @@ const data = {
 }
 
 // bylines
-const byline_types = ["Story and photos by","Design and development by"]
+const byline_types = ["Story and photos by","Design and development by", "Photos by"]
 let bylines_html = '';
 let bios_html = '';
 

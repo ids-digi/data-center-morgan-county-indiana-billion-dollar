@@ -44,7 +44,7 @@ h2 {
 h1,
 h2 {
   /* alignment */
-  text-align: left;
+  text-align: center;
   /* width of text */
   max-width: var(--width-lg);
   /* text color */
@@ -55,7 +55,7 @@ h2 {
 .headline-container {
    top: auto;
   bottom: 5vh; 
-  left: 5vw;
+  /* left: 5vw; */
   
 }
 
