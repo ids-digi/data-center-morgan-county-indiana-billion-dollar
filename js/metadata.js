@@ -3,7 +3,7 @@ const data = {
     "slug": "Data Center",
     "headline": "The billion-dollar neighbor coming to Morgan County",
     "title": "Data Center",
-    "pub_date": "{insert your date in metadata.json}",
+    "pub_date": "May 2, 2026",
     "bylines": {
         "Story and photos by": {
             "name": "Ella Curlin",
